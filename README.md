@@ -1,2 +1,2 @@
-# mariianazarova_hillel.github.io
+# mariianazarova.github.io
 Hillel school
