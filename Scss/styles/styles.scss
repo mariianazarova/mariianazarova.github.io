@@ -1,0 +1,326 @@
+$col-1:#0F1111;
+$col-2:#555;
+$col-2-1:#565959;
+$col-3:#ccc;
+$col-4:#fefaf6;
+$col-0:#ffffff;
+$col-0-0:#F3F3F3;
+$col-5:#007185;
+$col-6:#168342;
+$col-7:#E47911;
+$col-8:#FFA41C;
+$col-9:#B12704;
+$col-10:#F7FAFA;
+
+@font-face {
+    font-family: 'Ember';
+    src: url(../fonts/Ember/Amazon-Ember-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Ember';
+    src: url(../fonts/Ember/AmazonEmber_Rg.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Ember';
+    src: url(../fonts/Ember/AmazonEmber_Bd.ttf);
+    font-weight: 700;
+}
+
+%font-ember-regular {
+    font-family: 'Ember', sans-serif, 'Arial';
+    font-weight: 400;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    @extend %font-ember-regular;
+
+}
+
+.img-left {
+    border: 1px solid $col-3;
+    border-radius: 2px;
+
+    &:hover {
+        border: 1px solid $col-7;
+        box-shadow: 0 0 6px $col-7;
+    }
+}
+
+.svg-sz {
+    width: 32px;
+}
+
+.svg-sz-stars {
+    width: 80px;
+}
+
+.svg-sz-nav-arrow-down {
+    width: 16px;
+}
+
+.img-sz {
+    width: 26px;
+}
+
+.video-ct {
+    font-size: 9px;
+    font-weight: 700;
+    color: $col-2;
+}
+
+.mx-wth {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.container-clm {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-rw {
+    display: flex;
+    flex-direction: row;
+}
+
+.mg-tp {
+    margin-top: 64px;
+}
+
+.mg-tp-1 {
+    margin-top: 32px;
+}
+
+.flx-gp-1 {
+    gap: 12px;
+}
+
+.flx-gp-2 {
+    gap: 72px;
+
+}
+
+.flx-gp-3 {
+    gap: 18px;
+
+}
+
+.flx-gp-4 {
+    gap: 4px;
+}
+
+.flx-gp-5 {
+    gap: 10px;
+}
+
+.flx-gp-6 {
+    gap: 40px;
+}
+
+.txt-rght {
+    text-align: right;
+}
+
+.p-1 {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.col-5 {
+    color: $col-5;
+}
+
+.col-2 {
+    color: $col-2;
+}
+
+.col-1 {
+    color: $col-1;
+}
+
+.col-6 {
+    color: $col-6;
+}
+
+.col-3 {
+    color: $col-3;
+}
+
+.col-9 {
+    color: $col-9;
+}
+
+.col-2-1 {
+    color: $col-2-1;
+}
+
+.hr-1 {
+    width: 440px;
+    height: 1px;
+    border-top: 1px solid $col-3;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    margin-top: 10px;
+    margin-bottom: 14px;
+
+}
+
+.fnt-wght-bld {
+    font-weight: 700;
+}
+
+.button-normal {
+    padding: 5px 10px 5px 10px;
+    color: $col-3;
+    border: 1px dashed $col-3;
+    background-color: $col-0;
+
+    & {
+        a:hover {
+            color: $col-1;
+        }
+    }
+
+}
+
+.button-normal-2 {
+    padding: 5px 10px 5px 10px;
+
+    border: 1px solid $col-3;
+    background-color: $col-0;
+
+    &:hover {
+
+        background-color: $col-0-0;
+    }
+}
+
+.button-default {
+    padding: 5px 10px 5px 10px;
+    border: 1px solid $col-7;
+    background-color: $col-4;
+}
+
+.ft-sz {
+    font-size: 14px;
+}
+
+.ft-sz-12 {
+    font-size: 12px;
+}
+
+.link-deco {
+    text-decoration: none;
+}
+
+.mg {
+    margin-top: 12px;
+}
+
+.pd-lf-td {
+    padding-left: 20px;
+
+
+}
+
+.pd-tp-td {
+    padding-top: 12px;
+    vertical-align: top;
+}
+
+.linear-gradient {
+    height: 16px;
+    width: 100%;
+    margin-top: -10px;
+}
+
+ul {
+
+    width: 440px;
+    padding-left: 14px;
+    margin-top: 14px;
+
+}
+
+.wght-mg-btm {
+    width: 423px;
+    margin-bottom: 64px;
+
+}
+
+form {
+    border-radius: 8px;
+    background-color: $col-0;
+    border: 1px solid $col-3;
+    height: 184px;
+    width: 306px;
+}
+
+.contant-form {
+    width: 242px;
+    height: 1px;
+    border-top: 1px solid $col-3;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.button-form {
+    font-size: 13px;
+    width: 242px;
+    height: 30px;
+}
+
+.button-sell-on-amazon {
+    width: 140px;
+    height: 30px;
+}
+
+.button-see-all-buy {
+    text-align: center;
+    background-color: $col-0;
+    border-radius: 8px;
+    border: 1px solid $col-3;
+    box-shadow: 0 2px 5px $col-0-0;
+
+    &:hover {
+        background-color: $col10;
+    }
+}
+
+.button-add-to-list {
+    text-align: left;
+    border-radius: 3px;
+    border: 1px solid $col-3;
+    box-shadow: 0 1px 1px $col-0-0;
+    padding-left: 10px;
+}
+
+.link-1 {
+    color: $col-5;
+    &:hover {
+        color: $col-9;
+    }
+}
+
+.posit-contant-form {
+    align-items: flex-start;
+}
+
+.posit-contant-form-1 {
+    justify-content: center;
+}
+
+.posit-contant-form-2 {
+    align-items: center;
+}
