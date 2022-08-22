@@ -3,13 +3,11 @@
   src: url("../fonts/Inter-Regular.ttf");
   font-weight: 400;
 }
-
 @font-face {
   font-family: "Inter", sans-serif;
   src: url("../fonts/Inter-SemiBold.ttf");
   font-weight: 600;
 }
-
 * {
   font-family: "Inter", sans-serif, "Arial";
   font-weight: 400;
@@ -45,7 +43,6 @@ img {
 .flex-3 {
   justify-content: space-between;
 }
-
 @media screen and (min-width: 767px) {
   .flex-3 {
     justify-content: center;
@@ -55,7 +52,6 @@ img {
 .flex-4 {
   display: none;
 }
-
 @media screen and (min-width: 767px) {
   .flex-4 {
     display: flex;
@@ -70,7 +66,6 @@ img {
 .flex-6 {
   justify-content: baseline;
 }
-
 @media screen and (min-width: 767px) {
   .flex-6 {
     justify-content: center;
@@ -96,7 +91,6 @@ img {
   flex-direction: column;
   align-items: center;
 }
-
 @media screen and (min-width: 991px) {
   .flex-8 {
     display: flex;
@@ -107,7 +101,6 @@ img {
 .flex-8-1 {
   display: none;
 }
-
 @media screen and (min-width: 991px) {
   .flex-8-1 {
     display: flex;
@@ -121,7 +114,6 @@ img {
   flex-direction: column;
   align-self: flex-start;
 }
-
 @media screen and (min-width: 991px) {
   .flex-8-2 {
     display: flex;
@@ -213,7 +205,6 @@ img {
   border-radius: 4px;
   border: none;
 }
-
 @media screen and (min-width: 991px) {
   .button-header {
     width: 169px;
@@ -240,7 +231,6 @@ img {
 .gap-h-2 {
   gap: 20px;
 }
-
 @media screen and (min-width: 1190px) {
   .gap-h-2 {
     gap: 45px;
@@ -256,13 +246,11 @@ img {
     gap: 15px;
   }
 }
-
 @media screen and (min-width: 767px) and (max-width: 991px) {
   .gap-best-team {
     gap: 33px;
   }
 }
-
 @media screen and (min-width: 991px) {
   .gap-best-team {
     gap: 100px;
@@ -282,7 +270,6 @@ a {
 .fnt-sz {
   font-size: 14px;
 }
-
 @media screen and (min-width: 991px) {
   .fnt-sz {
     font-size: 16px;
@@ -311,7 +298,6 @@ a {
   text-align: center;
   font-size: 14px;
 }
-
 @media screen and (min-width: 767px) {
   .button-switch-1 {
     width: 276px;
@@ -331,7 +317,6 @@ a {
     display: none;
   }
 }
-
 @media screen and (min-width: 767px) {
   .button-switch-2 {
     width: 108px;
@@ -362,7 +347,6 @@ a {
 .mg-tp-s1 {
   margin-top: 63px;
 }
-
 @media screen and (min-width: 767px) {
   .mg-tp-s1 {
     margin-top: 116px;
@@ -400,7 +384,6 @@ a {
   text-align: center;
   margin-top: 22px;
 }
-
 @media screen and (min-width: 767px) {
   .h-style {
     font-size: 64px;
@@ -410,7 +393,6 @@ a {
     margin-top: 38px;
   }
 }
-
 @media screen and (min-width: 767px) and (max-width: 991px) {
   .h-style {
     font-size: 56px;
@@ -443,7 +425,6 @@ a {
   border: 1px solid #E1E5EA;
   text-align: center;
 }
-
 @media screen and (min-width: 767px) {
   .input-text-1 {
     width: 320px;
@@ -461,7 +442,6 @@ a {
   border: none;
   border-radius: 4px 4px 4px 4px;
 }
-
 @media screen and (min-width: 767px) {
   .button-try-it-free-dsk {
     width: 164px;
@@ -476,7 +456,6 @@ a {
   flex-wrap: wrap;
   gap: 12px;
 }
-
 @media screen and (min-width: 767px) {
   .wrap {
     flex-wrap: nowrap;
@@ -498,7 +477,6 @@ a {
   height: 1000px;
   background-color: #F0EBFA;
 }
-
 @media screen and (min-width: 991px) {
   .section-2 {
     width: 100%;
@@ -512,7 +490,6 @@ a {
   text-align: center;
   padding-top: 10px;
 }
-
 @media screen and (min-width: 991px) {
   .p-3-s-2 {
     color: #4E5A65;
@@ -531,7 +508,6 @@ a {
     padding-left: 8px;
     padding-right: 8px;
   }
-
   .bg-active::after {
     content: "";
     width: 372px;
@@ -542,7 +518,6 @@ a {
     bottom: 0;
   }
 }
-
 @media screen and (min-width: 991px) {
   .bg-active {
     width: 372px;
@@ -552,7 +527,6 @@ a {
     position: relative;
     padding-left: 25px;
   }
-
   .bg-active::before {
     content: "";
     width: 8px;
@@ -573,7 +547,6 @@ h3 {
   width: 372px;
   height: 128px;
 }
-
 @media screen and (min-width: 991px) {
   .bg-normal {
     width: 372px;
@@ -611,7 +584,6 @@ h1 {
   color: #35414B;
   text-align: center;
 }
-
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 32px;
@@ -630,7 +602,6 @@ h1 {
   color: #794CFF;
   background-color: #ECE5FF;
 }
-
 @media screen and (min-width: 991px) {
   .button-vmb {
     display: none;
@@ -654,7 +625,6 @@ h1 {
   height: 540px;
   background-color: #F0EBFA;
 }
-
 @media screen and (max-width: 991px) {
   .s-we-work-how-you-work-ev-day {
     width: 100%;
@@ -667,7 +637,6 @@ h1 {
   text-align: center;
   font-size: 32px;
 }
-
 @media screen and (min-width: 991px) {
   .h1-1 {
     text-align: left;
@@ -686,7 +655,6 @@ h1 {
   .avatar {
     position: relative;
   }
-
   .avatar::before {
     content: "";
     width: 264px;
@@ -710,7 +678,6 @@ h1 {
   padding-top: 50px;
   margin-bottom: 40px;
 }
-
 @media screen and (min-width: 991px) {
   .sect-download {
     width: 100%;
@@ -728,7 +695,6 @@ h1 {
   text-align: center;
   color: #ffffff;
 }
-
 @media screen and (min-width: 991px) {
   .p-5 {
     font-size: 32px;
@@ -755,6 +721,4 @@ ul {
   .display-mob-soc {
     display: none;
   }
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
