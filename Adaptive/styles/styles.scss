@@ -4,8 +4,17 @@ $color-3: #81C43B;
 $color-4: #F2F9EB;
 $color-5: #1D2830;
 $color-6: #35414B;
+<<<<<<< HEAD
 $color-7: #97A5B5;
 $color-8: #E1E5EA;
+=======
+$color-7:#97A5B5;
+$color-8:#E1E5EA;
+$color-9:#ffffff;
+$color-10:#4E5A65;
+$color-11:#F0EBFA;
+$color-12:#F6F3FC;
+>>>>>>> additional
 
 @font-face {
     font-family: 'Inter', sans-serif;
@@ -36,14 +45,16 @@ $color-8: #E1E5EA;
 .container {
     width: 100%;
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1110px;
     padding-left: 16px;
     padding-right: 16px;
 
-
-
+}
+img {
+    width: 100%;
 }
 
+>>>>>>> additional
 .flex-1 {
     display: flex;
     flex-direction: row;
@@ -55,6 +66,7 @@ $color-8: #E1E5EA;
 }
 
 .flex-3 {
+<<<<<<< HEAD
     justify-content: center;
 }
 
@@ -69,12 +81,152 @@ $color-8: #E1E5EA;
     @media screen and (min-width:767px) and (max-width:1074px) {
         font-size: 12px;
     }
+=======
+    justify-content: space-between;
 
+    @media screen and (min-width:767px) {
+        justify-content: center;
+    }
+}
+>>>>>>> additional
+
+.flex-4 {
+    display: none;
+
+    @media screen and (min-width:767px) {
+        display: flex;
+        flex-direction: row;
+
+    }
+}
+
+.flex-5 {
+    justify-content: center;
 
 }
 
+<<<<<<< HEAD
+=======
+.flex-6 {
+    justify-content: baseline;
+
+    @media screen and (min-width:767px) {
+        justify-content: center;
+
+    }
+}
+
+.flex-7 {
+    justify-content: space-between;
+}
+
+.flex-11 {
+    justify-content: space-around;
+}
+
+.mob-menu {
+    @media screen and (min-width:767px) {
+        display: none;
+    }
+}
+
+.flex-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: 991px) {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+.flex-8-1 {
+    display: none;
+
+    @media screen and (min-width: 991px) {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+}
+
+.flex-8-2 {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+
+    @media screen and (min-width: 991px) {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+.flex-9 {
+    gap: 44px;
+
+}
+
+.flex-9-2 {
+    gap: 18px;
+}
+
+.flex-10 {
+    display: flex;
+    flex-direction: column;
+}
+
+.w-h {
+    width: 180px;
+    height: 54px;
+}
+
+.flex-11-al-itm-mob {
+    @media screen and (max-width: 991px) {
+        align-items: center;
+    }
+}
+
+.flex-12 {
+    @media screen and (max-width: 991px) {
+        flex-direction: column-reverse;
+        gap: 24px;
+    }
+}
+
+.flex-13 {
+
+    @media screen and (min-width:991px) {
+        display: none;
+    }
+}
+
+.arrow-down {
+
+    &::after {
+        content: url(../images/arrow-down.svg);
+
+
+
+    }
+}
+
+.txt-algn-1 {
+
+
+    @media screen and (max-width:991px) {
+        text-align: center;
+
+    }
+}
+
+>>>>>>> additional
 .p-1::after {
     content: url(../images/nav-arrow-down.svg);
+    margin-left: 4px;
 }
 
 .color-6 {
@@ -85,13 +237,47 @@ $color-8: #E1E5EA;
     color: $color-2;
 }
 
+<<<<<<< HEAD
 .button-header {
     width: 169px;
+=======
+.color-5 {
+    color: $color-5;
+}
+
+.color-9 {
+    color: $color-9;
+}
+
+.color-10 {
+    color: $color-10;
+}
+
+.color-1 {
+    color: $color-1;
+}
+
+.button-header {
+    width: 120px;
+>>>>>>> additional
     height: 48px;
+    font-size: 14px;
     background-color: $color-1;
     border-radius: 4px;
     border: none;
+<<<<<<< HEAD
     font-size: 16px;
+=======
+
+    @media screen and (min-width:991px) {
+        width: 169px;
+        height: 48px;
+        background-color: $color-1;
+        border-radius: 4px;
+        border: none;
+        font-size: 16px;
+    }
+>>>>>>> additional
 
 }
 
@@ -99,6 +285,7 @@ $color-8: #E1E5EA;
     margin-top: 48px;
 }
 
+<<<<<<< HEAD
 .gap-h-1 {
     gap: 233px;
 
@@ -108,14 +295,510 @@ $color-8: #E1E5EA;
     gap: 45px;
 }
 
+=======
+.mg-tp-1 {
+    margin-top: 10px;
+}
+
+.mg-lft {
+    margin-left: auto;
+}
+
+.gap-h-2 {
+    gap: 20px;
+
+    @media screen and (min-width:1190px) {
+        gap: 45px;
+    }
+}
+
+>>>>>>> additional
 .gap-h-3 {
     gap: 18px;
 }
 
+<<<<<<< HEAD
 .gap-h-4 {
     gap: 95px;
+=======
+.gap-best-team {
+    @media screen and (max-width:767px) {
+        gap: 15px;
+    }
+
+    @media screen and (min-width:767px) and (max-width: 991px) {
+        gap: 33px;
+
+    }
+
+    @media screen and (min-width:991px) {
+        gap: 100px;
+    }
+
+}
+
+.img-w {
+    @media screen and (max-width:767px) {
+        width: 56px;
+        ;
+    }
+>>>>>>> additional
 }
 
 a {
     text-decoration: none;
+}
+
+.fnt-sz {
+    font-size: 14px;
+
+    @media screen and (min-width:991px) {
+        font-size: 16px;
+    }
+
+}
+
+.fnt-sz-1 {
+    font-size: 14px;
+}
+
+.fnt-sz-8px {
+    font-size: 8px;
+}
+
+.fnt-wght {
+    font-weight: 700;
+}
+
+.button-switch-1 {
+    width: 160px;
+    height: 20x;
+    background-color: $color-4;
+    color: $color-5;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+
+    @media screen and (min-width:767px) {
+        width: 276px;
+        height: 32px;
+        background-color: $color-4;
+        color: $color-5;
+        border-radius: 100px;
+        border: none;
+        text-align: right;
+        padding-right: 8px;
+        font-size: 16px;
+    }
+}
+
+.button-switch-2 {
+    @media screen and (max-width:767px) {
+        display: none;
+    }
+
+    @media screen and (min-width:767px) {
+        width: 108px;
+        height: 32px;
+        background-color: $color-3;
+        border-radius: 100px;
+        border: none;
+        font-size: 16px;
+    }
+}
+
+.color-9 {
+    color: $color-9;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.mg-tp-s1 {
+    margin-top: 63px;
+
+    @media screen and(min-width:767px) {
+        margin-top: 116px;
+    }
+
+}
+
+.mg-tp-s1-1 {
+    margin-top: 32px;
+}
+
+.mg-tp-s1-2 {
+    margin-top: 20px;
+}
+
+.mg-tp-s2 {
+    margin-top: 80px;
+}
+
+.txt-algn {
+    text-align: center;
+}
+
+.padding-top {
+    padding-top: 6px;
+}
+
+.padding-top-1 {
+    padding-top: 100px;
+}
+
+.h-style {
+    font-size: 32px;
+    font-weight: 600;
+    color: $color-5;
+    text-align: center;
+    margin-top: 22px;
+
+    @media screen and(min-width:767px) {
+        font-size: 64px;
+        font-weight: 600;
+        color: $color-5;
+        text-align: center;
+        margin-top: 38px;
+    }
+
+    @media screen and(min-width:767px)and (max-width:991px) {
+        font-size: 56px;
+        font-weight: 600;
+        color: $color-5;
+        text-align: center;
+        margin-top: 38px;
+    }
+}
+
+.p-2 {
+    color: $color-10;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 24px;
+}
+
+.p-3 {
+
+    font-weight: 700;
+}
+
+.ln-hght {
+    line-height: 24px;
+}
+
+.input-text-1 {
+    width: 318px;
+    height: 52px;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid $color-8;
+    text-align: center;
+
+    @media screen and (min-width: 767px) {
+        width: 320px;
+        height: 52px;
+        border-radius: 4px 0 0 4px;
+        border: 1px solid $color-8;
+        padding-left: 12px;
+    }
+}
+
+.button-try-it-free-dsk {
+    width: 318px;
+    height: 52px;
+    background-color: $color-2;
+    border: none;
+    border-radius: 4px 4px 4px 4px;
+
+    @media screen and (min-width:767px) {
+        width: 164px;
+        height: 52px;
+        background-color: $color-2;
+        border: none;
+        border-radius: 0 4px 4px 0;
+
+    }
+}
+
+.wrap {
+    flex-wrap: wrap;
+    gap: 12px;
+
+    @media screen and (min-width:767px) {
+        flex-wrap: nowrap;
+        gap: 0px;
+    }
+}
+
+.mg {
+    display: inline-block;
+    text-align: center;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+.section-2 {
+    width: 100%;
+    height: 1000px;
+    background-color: $color-11;
+
+    @media screen and (min-width:991px) {
+        width: 100%;
+        height: 640px;
+        background-color: $color-11;
+    }
+
+}
+
+.p-3-s-2 {
+
+    color: $color-10;
+    text-align: center;
+    padding-top: 10px;
+
+    @media screen and (min-width:991px) {
+
+        color: $color-10;
+        text-align: left;
+        padding-top: 10px;
+    }
+
+}
+
+.bg-active {
+    @media screen and (max-width:991px) {
+        width: 372px;
+        height: 128px;
+        border-radius: 0 8px 8px 0;
+        background-color: $color-12;
+        position: relative;
+        padding-left: 8px;
+        padding-right: 8px;
+
+        &::after {
+            content: "";
+            width: 372px;
+            height: 8px;
+            background-color: $color-2;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+
+        }
+    }
+
+    @media screen and (min-width:991px) {
+
+        width: 372px;
+        height: 128px;
+        border-radius: 0 8px 8px 0;
+        background-color: $color-12;
+        position: relative;
+        padding-left: 25px;
+
+        &::before {
+            content: "";
+            width: 8px;
+            height: 128px;
+            background-color: $color-2;
+            position: absolute;
+            left: 0;
+
+        }
+    }
+}
+
+
+h3 {
+    font-weight: 600;
+    color: $color-6;
+    padding-top: 24px;
+}
+
+.bg-normal {
+    width: 372px;
+    height: 128px;
+
+    @media screen and (min-width:991px) {
+        width: 372px;
+        height: 128px;
+        padding-left: 25px;
+    }
+}
+
+.e-sctn3 {
+    width: 33%;
+}
+
+hr {
+    width: 372px;
+    height: 1px;
+    border-top: 1px solid $color-8;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.hr-1 {
+    width: 100%;
+    height: 1px;
+    margin-top: 90px;
+    border-top: 1px solid $color-8;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: $color-6;
+    text-align: center;
+
+    @media screen and (max-width:991px) {
+        font-size: 32px;
+        font-weight: 700;
+        color: $color-6;
+        text-align: center;
+    }
+}
+
+.button-vmb {
+    width: 318px;
+    height: 52px;
+    display: block;
+    margin: auto;
+    border: none;
+    color: $color-2;
+    background-color: $color-1;
+
+    @media screen and (min-width:991px) {
+        display: none;
+    }
+}
+
+.benefits {
+    @media screen and (max-width:991px) {
+        display: none;
+    }
+}
+
+.mg-btm {
+    @media screen and (max-width:991px) {
+        margin-bottom: 32px;
+    }
+}
+
+.s-we-work-how-you-work-ev-day {
+    width: 100%;
+    height: 540px;
+    background-color: $color-11;
+
+    @media screen and (max-width:991px) {
+        width: 100%;
+        height: 700px;
+        background-color: $color-11;
+    }
+}
+
+.h1-1 {
+    text-align: center;
+    font-size: 32px;
+
+    @media screen and (min-width:991px) {
+        text-align: left;
+    }
+}
+
+.p-4 {
+    width: 60%;
+}
+
+.rds-brdr {
+    border-radius: 4px;
+}
+
+.avatar {
+
+    @media screen and (min-width:991px) {
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 264px;
+            height: 4px;
+            background-color: $color-6;
+            position: absolute;
+            left: 0;
+            margin-top: -20px;
+        }
+    }
+}
+
+.mg-btm {
+    margin-bottom: 84px;
+}
+
+.sect-download {
+    width: 100%;
+    border-radius: 16px;
+    background-color: $color-2;
+    height: 300px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+
+    @media screen and (min-width:991px) {
+        width: 100%;
+        border-radius: 16px;
+        background-color: $color-2;
+        height: 224px;
+        padding-top: 80px;
+        margin-bottom: 80px;
+    }
+}
+
+.p-5 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: $color-9;
+
+    @media screen and (min-width:991px) {
+        font-size: 32px;
+        font-weight: 600;
+        color: $color-9;
+        text-align: left;
+    }
+}
+
+footer {
+    width: 100%;
+    height: 417px;
+    padding-top: 40px;
+    background-color: $color-5;
+}
+
+ul {
+    list-style: none;
+    color: $color-9;
+    line-height: 32px;
+}
+
+.display-mob-soc {
+    @media screen and (max-width:991px) {
+        display: none;
+    }
 }
