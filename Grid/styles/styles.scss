@@ -1,0 +1,149 @@
+$color-1:#222425;
+$color-2:#ffffff;
+$color-3:#464748;
+$color-4:#151515;
+$color-5:#141414;
+$color-6:#070707;
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1110px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.container-1{
+    max-width: 1142px;
+ }
+.grid-1{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: $color-1;
+    color: $color-2;
+   
+}
+.grid-item1{
+    font-size: 36px;
+    text-align: right;
+    grid-column: 12/13;
+    grid-row: 2/3;
+    
+}
+.ft-sz-14{
+    font-size: 14px;
+    @media screen and (max-width:767px){
+        font-size: 12px;  
+    }
+}
+.grid-item2{
+    grid-column: 1/2;
+    grid-row:4/5;
+    
+}
+.grid-item3{
+    grid-column: 2/3;
+    grid-row:4/5;
+    
+}
+.grid-item4{
+    grid-column: 1/2;
+    grid-row:5/6;
+ 
+    
+}
+.grid-item5{
+    grid-column: 2/3;
+    grid-row:5/6;
+  
+    
+}
+.grid-item6{
+    grid-column: 3/4;
+    grid-row:5/6;
+    
+}
+.grid-item7{
+    grid-column: 4/5;
+    grid-row:5/6;
+    
+}
+.grid-item8{
+    grid-column: 5/6;
+    grid-row:5/6;
+    
+}
+.color-3{
+    color: $color-3;
+}
+.bg-color-3{
+    background-color: $color-3;
+}
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-color: $color-4;
+    color: $color-2;
+    @media screen and (max-width:767px){
+        display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-color: $color-4;
+    color: $color-2;
+    }
+}
+.grid-item9{
+    grid-column:1/2; 
+    grid-row:1/2; 
+}
+  .bg-color-6{
+    background-color:$color-6;
+  }  
+.grid-item10{
+    grid-column:2/3;  
+    grid-row:1/2; 
+    & p::before{
+        content: ' \0192';
+        padding-right: 4px;
+    }  
+    
+}
+
+i {
+    border: solid $color-2;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.down {
+    transform: rotate(45deg);
+   }
+.img-s{
+    width: 12px;
+    display: inline-block;
+}
+.flex-1{
+    display: flex;
+    flex-direction: row;
+}
+.grid-3{
+    display: grid;
+   text-align: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    background-color: $color-5;
+    color: $color-2;
+    
+    
+   
+    
+}
+.border{
+    border: 1px solid $color-3;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
