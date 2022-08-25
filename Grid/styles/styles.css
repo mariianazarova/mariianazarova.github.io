@@ -100,6 +100,15 @@
     color: #ffffff;
   }
 }
+@media screen and (max-width: 480px) {
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-color: #151515;
+    color: #ffffff;
+  }
+}
 
 .grid-item9 {
   grid-column: 1/2;
