@@ -96,6 +96,14 @@ $color-6:#070707;
     background-color: $color-4;
     color: $color-2;
     }
+     @media screen and (max-width:480px){
+        display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-color: $color-4;
+    color: $color-2;
+    }
+
 }
 .grid-item9{
     grid-column:1/2; 
