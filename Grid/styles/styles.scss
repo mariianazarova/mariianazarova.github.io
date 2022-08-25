@@ -16,13 +16,16 @@ $color-6:#070707;
 .container-1{
     max-width: 1142px;
  }
+ .cursor-pointer{
+    cursor: pointer;
+ }
 .grid-1{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(5, 1fr);
     background-color: $color-1;
     color: $color-2;
-   
+    
 }
 .grid-item1{
     font-size: 36px;
