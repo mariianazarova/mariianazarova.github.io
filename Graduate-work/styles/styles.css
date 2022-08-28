@@ -95,6 +95,10 @@
   }
 }
 
+.click {
+  cursor: pointer;
+}
+
 .gp-70 {
   gap: 70px;
 }
